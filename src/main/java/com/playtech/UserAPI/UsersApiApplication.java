@@ -1,4 +1,4 @@
-package com.playtech.UsersAPI;
+package com.playtech.UserAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

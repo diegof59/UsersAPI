@@ -1,0 +1,39 @@
+{
+  "GET all": "http://localhost:8080/api/v1/users",
+  "GET by Id": "http://localhost:8080/api/v1/users/5",
+  "POST create": ["http://localhost:8080/api/v1/users", {
+      "documentType": {
+          "documentTypeId": 1
+      },
+      "documentNumber": "8388",
+      "firstName": "Diego",
+      "lastName": "Botero",
+      "dateBirth": "1994-04-12",
+      "mobilePhone": "3004567890",
+      "email": "diegof59@test.com",
+      "address": "Calle 456",
+      "city": {
+          "cityId": 3
+      },
+      "sessionActive": "INACTIVE"
+    }
+  ],
+  "PUT update": ["http://localhost:8080/api/v1/users/5", {
+      "documentType": {
+          "documentTypeId": 1
+      },
+      "documentNumber": "8388",
+      "firstName": "Diego",
+      "lastName": "Botero",
+      "dateBirth": "1994-04-12",
+      "mobilePhone": "3004567890",
+      "email": "diegof59@test.com",
+      "address": "Calle 456",
+      "city": {
+          "cityId": 3
+      },
+      "sessionActive": "INACTIVE"
+    }
+  ],
+  "DELETE by id": "http://localhost:8080/api/v1/users/4"
+}
